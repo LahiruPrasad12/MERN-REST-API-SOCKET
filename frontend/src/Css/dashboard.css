@@ -1,0 +1,55 @@
+#home {
+	
+	font-family: 'Inter', sans-serif;
+	background-image: url('../img/bg4.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.text-box{
+    width:90%;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+
+
+}
+.text-box h1{
+    font-size:62px;
+
+}
+.text-box p{
+    margin:10px 0 40px;
+    font-size:14px;
+    color:#fff;
+}
+
+.hero-btn{
+    display:inline-block;
+    text-decoration:none;
+    color:#fff;
+    border:1px solid #fff;
+    padding:12px 34px;
+    font-size:13px;
+    background:transparent;
+    position:relative;
+    cursor:pointer;
+}
+
+.hero-btn:hover{
+    border:1px solid #fff;
+    background: #fff;
+    transition:is;
+}
+#home::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.8);
+}
